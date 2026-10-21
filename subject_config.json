@@ -1,0 +1,96 @@
+{
+  "storageKey": "EMTP_PED_OB_REVIEW_STATE_V1",
+  "bundleFilename": "EMTP_婦兒與新生兒急救_終極單一獨立版.html",
+  "title": "EMT-P 小兒、新生兒與婦產急症 (PALS / NRP / OB) 視覺化戰情複習系統",
+  "badge": "108-114 婦兒完整版 (60題)",
+  "subtitle": "PALS / NRP / 婦產急症演算法決策路徑 ‧ 劑量公式與誘答陷阱拆解 ‧ AHA 最新指引檢核",
+  "icon": "👶",
+  "defaultTheme": "dark",
+  "cardTitles": {
+    "algorithm": "PALS / NRP / 婦產急症 臨床決策路徑",
+    "trap": "劑量公式與易混淆誘答陷阱拆解",
+    "guideline": "AHA PALS / NRP / ATLS 最新指引與考題勘誤"
+  },
+  "highlightTerms": [
+    "3:1",
+    "15:2",
+    "30:2",
+    "1:10,000",
+    "1:1,000",
+    "0.01 mg/kg",
+    "0.1 mg/kg",
+    "0.1 mL/kg",
+    "20 mL/kg",
+    "10 mL/kg",
+    "2 J/kg",
+    "4 J/kg",
+    "0.5-1 J/kg",
+    "MR. SOPA",
+    "APGAR",
+    "PAT",
+    "Stridor",
+    "Wheezing",
+    "Croup",
+    "Steeple sign",
+    "JumpSTART",
+    "脛骨粗隆",
+    "左側躺",
+    "子宮左推",
+    "硫酸鎂",
+    "羊水栓塞"
+  ],
+  "categories": [
+    {
+      "name": "新生兒復甦術 (NRP) 與出生評估",
+      "short": "新生兒復甦 (NRP)",
+      "icon": "🍼"
+    },
+    {
+      "name": "小兒高級救命術 (PALS) 與 OHCA",
+      "short": "小兒救命術 (PALS)",
+      "icon": "⚡"
+    },
+    {
+      "name": "小兒呼吸道急症與進階氣道",
+      "short": "小兒氣道與呼吸",
+      "icon": "🫁"
+    },
+    {
+      "name": "小兒創傷、休克輸液與檢傷",
+      "short": "小兒外傷與檢傷",
+      "icon": "🚑"
+    },
+    {
+      "name": "小兒內科、發展里程碑與兒虐辨識",
+      "short": "小兒發展與兒虐",
+      "icon": "🧸"
+    },
+    {
+      "name": "急產接生、產後出血與孕婦外傷急症",
+      "short": "急產與孕婦急症",
+      "icon": "🤰"
+    }
+  ],
+  "cheatSheets": [
+    {
+      "tabTitle": "🍼 1. NRP 新生兒復甦與 APGAR",
+      "htmlContent": "<div class='space-y-4'><div class='p-4 rounded-xl bg-slate-900 border border-cyan-500/30'><h4 class='text-sm font-black text-cyan-300 mb-2'>🔥 NRP 出生後黃金 60 秒決策流程（歷屆必考：114-85, 114-86, 113-76, 112-79, 110-71, 108-70）</h4><div class='overflow-x-auto'><table class='w-full text-left border-collapse text-xs'><thead><tr class='border-b border-slate-700 text-slate-300'><th class='py-2 px-3'>時間與階段</th><th class='py-2 px-3'>關鍵評估指標</th><th class='py-2 px-3'>標準處置參數與考場陷阱</th></tr></thead><tbody class='divide-y divide-slate-800'><tr><td class='py-2 px-3 font-bold text-amber-300'>出生快速評估 (3問)</td><td class='py-2 px-3'>1. 是否足月？<br>2. 肌張力是否良好？<br>3. 是否有哭或呼吸？</td><td class='py-2 px-3'>• <strong>陷阱</strong>：<strong>羊水是否清澈已移除</strong>（108-70）！<br>• <strong>胎便染色無活力</strong>：<strong>不再常規直接插管抽吸</strong>（112-79, 114-86），先完成初始步驟後依心率/呼吸給予 PPV。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>初始穩定步驟 (C)<br>(最高頻率措施)</td><td class='py-2 px-3'>保暖 → 擺位(嗅吸姿/肩墊毛巾) → 清呼吸道(必要時<strong>先口後鼻 M before N</strong>) → 擦乾 → 刺激</td><td class='py-2 px-3'>• <strong>四大措施頻率排序</strong>：<strong>C (初始穩定) → D (PPV正壓通氣) → B (壓胸) → A (給藥)</strong>（113-76 選 CDBA）。<br>• <strong>陷阱</strong>：不常規抽吸口鼻；毛巾墊<strong>肩部</strong>而非枕部（112-79）。</td></tr><tr><td class='py-2 px-3 font-bold text-emerald-300'>正壓通氣 (PPV)<br>(HR &lt; 100 或無呼吸/喘息)</td><td class='py-2 px-3'>通氣速率：<strong>40～60 次/分</strong><br>口訣：吹—二—三—吹</td><td class='py-2 px-3'>• <strong>初始氧氣濃度</strong>：≥35週足月兒用 <strong>21% (空氣)</strong>（不可直接給 100% 氧，110-71）；&lt;35週用 21%–30%。<br>• <strong>15秒評估</strong>：若給 15 秒 PPV 後<strong>胸部有起伏</strong>但 HR 仍 &lt;60，應<strong>再 Bagging 15 秒湊滿 30 秒有效通氣</strong>（114-85）！若胸部無起伏則做 <strong>MR. SOPA</strong>。</td></tr><tr><td class='py-2 px-3 font-bold text-rose-300'>胸部按壓與給藥<br>(30秒有效PPV後 HR &lt; 60)</td><td class='py-2 px-3'>壓胸吹氣比：<strong>3 : 1</strong><br>(每分鐘 90 次壓胸 + 30 次吹氣 = 120 動)</td><td class='py-2 px-3'>• <strong>壓胸手法</strong>：<strong>雙手環抱兩拇指法</strong>（拇指並排於兩乳頭連線下方、胸骨下 1/3，深度為胸廓前後徑 1/3，114-86）。此時氧氣調至 <strong>100%</strong>。<br>• <strong>Epinephrine</strong>：60 秒壓胸+有效通氣後 HR 仍 &lt;60，首選<strong>臍靜脈 (UVC)</strong> 給予 1:10,000 濃度 0.01–0.03 mg/kg (0.1–0.3 mL/kg)。</td></tr></tbody></table></div></div><div class='p-4 rounded-xl bg-slate-900 border border-amber-500/30'><h4 class='text-sm font-black text-amber-300 mb-2'>📊 APGAR 阿普加評分表（出生後第 1、5 分鐘評估，108-77, 109-74, 113-77）</h4><div class='overflow-x-auto'><table class='w-full text-left border-collapse text-xs'><thead><tr class='border-b border-slate-700 text-slate-300'><th class='py-2 px-3'>字母指標 (陷阱：無 Airway/SpO2)</th><th class='py-2 px-3'>0 分</th><th class='py-2 px-3'>1 分</th><th class='py-2 px-3'>2 分</th></tr></thead><tbody class='divide-y divide-slate-800'><tr><td class='py-1.5 px-3 font-bold text-cyan-300'>A - Appearance (外觀膚色)</td><td class='py-1.5 px-3'>全身蒼白或發紺</td><td class='py-1.5 px-3'><strong>軀幹紅潤、四肢發紺 (Acrocyanosis)</strong></td><td class='py-1.5 px-3'>全身紅潤</td></tr><tr><td class='py-1.5 px-3 font-bold text-cyan-300'>P - Pulse (心跳速率)</td><td class='py-1.5 px-3'>無心跳</td><td class='py-1.5 px-3'><strong>&lt; 100 次/分</strong> (例：80 bpm 得 1 分)</td><td class='py-1.5 px-3'>≥ 100 次/分</td></tr><tr><td class='py-1.5 px-3 font-bold text-cyan-300'>G - Grimace (抽吸刺激反射)</td><td class='py-1.5 px-3'>無反應 (不會哭且無表情)</td><td class='py-1.5 px-3'>皺眉 / 微弱面部表情</td><td class='py-1.5 px-3'>大哭、咳嗽或打噴嚏</td></tr><tr><td class='py-1.5 px-3 font-bold text-cyan-300'>A - Activity (肌肉張力/活動力)</td><td class='py-1.5 px-3'>四肢癱軟</td><td class='py-1.5 px-3'><strong>四肢些微彎曲/微弱收縮</strong></td><td class='py-1.5 px-3'>四肢活動力佳、主動彎曲</td></tr><tr><td class='py-1.5 px-3 font-bold text-cyan-300'>R - Respiration (呼吸狀況)</td><td class='py-1.5 px-3'>無呼吸</td><td class='py-1.5 px-3'>呼吸慢、不規則、微弱哭聲</td><td class='py-1.5 px-3'>呼吸規則良好、宏亮哭聲</td></tr></tbody></table></div></div></div>"
+    },
+    {
+      "tabTitle": "⚡ 2. PALS 小兒公式與氣道尺寸",
+      "htmlContent": "<div class='space-y-4'><div class='p-4 rounded-xl bg-slate-900 border border-emerald-500/30'><h4 class='text-sm font-black text-emerald-300 mb-2'>📐 PALS 小兒急救必背 5 大計算公式（110-82, 112-78, 109-12, 108-8）</h4><div class='overflow-x-auto'><table class='w-full text-left border-collapse text-xs'><thead><tr class='border-b border-slate-700 text-slate-300'><th class='py-2 px-3'>評估項目</th><th class='py-2 px-3'>標準計算公式</th><th class='py-2 px-3'>考古題實戰驗算與考場陷阱</th></tr></thead><tbody class='divide-y divide-slate-800'><tr><td class='py-2 px-3 font-bold text-cyan-300'>最低收縮壓下限 (SBP)<br>(1～10 歲兒童)</td><td class='py-2 px-3 font-mono text-amber-300'>70 + (2 × 年齡) mmHg</td><td class='py-2 px-3'>• <strong>110-82 (8歲男童)</strong>：70 + 2×8 = <strong>86 mmHg</strong>（ROSC 後收縮壓需維持 ≥86 mmHg）。<br>• <strong>114-37 (3歲男童)</strong>：70 + 2×3 = 76 mmHg；&gt;10 歲則同成人 &lt;90 mmHg 為低血壓。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>無氣囊 Endo 管徑 (mm)<br>(Uncuffed ETT)</td><td class='py-2 px-3 font-mono text-amber-300'>(年齡 ÷ 4) + 4</td><td class='py-2 px-3'>• <strong>110-82 (8歲男童)</strong>：(8÷4)+4 = <strong>6.0 號</strong>（故選 5.5 號以上正確）。<br>• &lt;1 歲足月嬰兒約 <strong>3.5 mm</strong>；早產兒約 <strong>2.5–3.0 mm</strong>（113-77）。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>有氣囊 Endo 管徑 (mm)<br>(Cuffed ETT)</td><td class='py-2 px-3 font-mono text-amber-300'>(年齡 ÷ 4) + 3.5</td><td class='py-2 px-3'>• <strong>108-8, 109-12 陷阱</strong>：小於 8 歲兒童最狹窄處在<strong>環狀軟骨 (Cricoid ring，較窄呈漏斗狀而非較寬大)</strong>！現代 PALS 雖允許使用有氣囊管，但舊考古題寫「因為環狀軟骨較寬大所以一定要用有氣囊」為<strong>錯誤選項</strong>。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>氣管內管固定深度 (cm)<br>(Lip-to-tip)</td><td class='py-2 px-3 font-mono text-amber-300'>(年齡 ÷ 2) + 12<br>或 管徑(ID) × 3<br>新生兒：6 + 體重(kg)</td><td class='py-2 px-3'>• <strong>110-82 (8歲男童)</strong>：(8÷2)+12 = <strong>16 cm</strong>（或 6.0×3 = 18 cm）。<br>• <strong>112-78 (2 kg 嬰兒)</strong>：6 + 2 = <strong>8 cm</strong>（選項寫 12 cm 過深錯誤！）。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>兒童氣道解剖與器械</td><td class='py-2 px-3'>口咽呼吸道 (OPA) 置入<br>喉頭鏡葉片選擇</td><td class='py-2 px-3'>• <strong>OPA 置入 (114-50)</strong>：兒童上顎未發育完全，<strong>不可旋轉 180 度</strong>，應<strong>使用壓舌板輔助順向平行置入</strong>。<br>• <strong>喉頭鏡 (108-8, 109-12)</strong>：兒童舌頭相對大、喉部偏前偏高、會厭軟骨細長柔軟，常使用<strong>直式葉片 (Miller)</strong> 直接挑起會厭。</td></tr></tbody></table></div></div></div>"
+    },
+    {
+      "tabTitle": "💊 3. PALS vs NRP 劑量與電擊對照",
+      "htmlContent": "<div class='space-y-4'><div class='p-4 rounded-xl bg-slate-900 border border-rose-500/30'><h4 class='text-sm font-black text-rose-300 mb-2'>⚡ 新生兒 (NRP) vs 嬰兒/兒童 (PALS) 復甦參數終極對照表</h4><div class='overflow-x-auto'><table class='w-full text-left border-collapse text-xs'><thead><tr class='border-b border-slate-700 text-slate-300'><th class='py-2 px-3'>比較項目</th><th class='py-2 px-3'>新生兒復甦 (NRP，剛出生/產房/急產)</th><th class='py-2 px-3'>嬰兒 (&lt;1歲) 與兒童 (1歲～青春期) PALS</th></tr></thead><tbody class='divide-y divide-slate-800'><tr><td class='py-2 px-3 font-bold text-cyan-300'>急救流程順序</td><td class='py-2 px-3'><strong>A - B - C</strong>（維持傳統順序，114-33，另一例外為溺水）</td><td class='py-2 px-3'><strong>C - A - B</strong>（小兒存活之鏈：預防 → 高品質CPR → 啟動EMS → PALS → 復甦後照護，108-72）</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>壓胸與吹氣比</td><td class='py-2 px-3 font-bold text-amber-300'>3 : 1（雙手環抱兩拇指法，90壓 + 30吹/分）</td><td class='py-2 px-3'>• <strong>單人施救：30 : 2</strong>（112-78 陷阱！）<br>• <strong>雙人醫護施救：15 : 2</strong>（112-77）</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>按壓深度</td><td class='py-2 px-3'>胸廓前後徑 <strong>1/3</strong></td><td class='py-2 px-3'>胸廓前後徑 <strong>1/3</strong>（嬰兒約 <strong>4 cm</strong>、兒童約 <strong>5 cm</strong>，112-77）</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>Epinephrine (IV / IO / UVC)</td><td class='py-2 px-3'><strong>1:10,000</strong> 溶液<br><strong>0.01–0.03 mg/kg</strong> (0.1–0.3 mL/kg)<br>首選<strong>臍靜脈 (UVC)</strong>，但非最快速方便（111-74）</td><td class='py-2 px-3'><strong>1:10,000</strong> 溶液<br><strong>0.01 mg/kg</strong> (<strong>0.1 mL/kg</strong>，單次最大 1 mg)<br>例：30 kg 兒童應給 <strong>0.3 mg</strong>（110-82 寫 0.03 mg 為十倍陷阱！）</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>Epinephrine (ET 氣管內管)</td><td class='py-2 px-3'><strong>1:10,000</strong> 溶液（NRP 一律稀釋 10 倍，111-74）<br><strong>0.05–0.1 mg/kg</strong> (0.5–1.0 mL/kg)</td><td class='py-2 px-3'><strong>1:1,000 原液</strong><br><strong>0.1 mg/kg</strong> (<strong>0.1 mL/kg</strong>，單次最大 2.5 mg)（112-78）</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>去顫與同步電擊 (111-85)</td><td class='py-2 px-3'>極罕見心因性 VF</td><td class='py-2 px-3'>• <strong>VF / 無脈 VT 去顫</strong>：首次 <strong>2 J/kg</strong> → 第二次 <strong>4 J/kg</strong> → 後續 ≥4 J/kg (最高 10 J/kg)。<br>• <strong>有脈 VT / PSVT 同步整流</strong>：<strong>0.5–1 J/kg</strong>（可提高至 2 J/kg）。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>休克晶體輸液 (Bolus)</td><td class='py-2 px-3'><strong>10 mL/kg</strong> N/S</td><td class='py-2 px-3'><strong>20 mL/kg</strong> N/S 或 L/R（例：35 kg 男童給 35×20 = <strong>700 mL</strong>，110-51, 108-50, 109-42）</td></tr></tbody></table></div></div></div>"
+    },
+    {
+      "tabTitle": "🫁 4. 呼吸音、PAT 三角與兒虐辨識",
+      "htmlContent": "<div class='space-y-4'><div class='p-4 rounded-xl bg-slate-900 border border-cyan-500/30'><h4 class='text-sm font-black text-cyan-300 mb-2'>🫁 喘鳴音 (Stridor) vs 哮喘音 (Wheezes) 與哮吼 (Croup) 考點（113-75, 111-17, 111-79, 110-22）</h4><div class='overflow-x-auto'><table class='w-full text-left border-collapse text-xs'><thead><tr class='border-b border-slate-700 text-slate-300'><th class='py-2 px-3'>比較維度</th><th class='py-2 px-3'>喘鳴音 (Stridor) — 哮吼 (Croup) / 異物哽塞</th><th class='py-2 px-3'>哮喘音 (Wheezes / Wheezing) — 氣喘 / 細支氣管炎</th></tr></thead><tbody class='divide-y divide-slate-800'><tr><td class='py-2 px-3 font-bold text-amber-300'>阻塞解剖位置</td><td class='py-2 px-3'><strong>胸腔外上呼吸道</strong>（喉部、聲門下、氣管上段），頸部聽診最清楚（111-17）</td><td class='py-2 px-3'><strong>胸腔內下呼吸道</strong>（收縮狹窄的小細支氣管，110-22）</td></tr><tr><td class='py-2 px-3 font-bold text-amber-300'>呼吸期與頻率</td><td class='py-2 px-3'><strong>吸氣期為主</strong>（嚴重時呼氣也有），<strong>中頻</strong>連續音（110-22, 111-17）</td><td class='py-2 px-3'><strong>呼氣期為主</strong>，<strong>高頻</strong>連續咻咻音（110-22）</td></tr><tr><td class='py-2 px-3 font-bold text-amber-300'>哮吼 (Croup) 必考特徵</td><td class='py-2 px-3' colspan='2'>• <strong>病原</strong>：副流行性感冒病毒 (Parainfluenza virus) 最常見，不需常規用抗生素，<strong>給予類固醇 (Dexamethasone) 與腎上腺素噴霧</strong>有效（113-75）。<br>• <strong>三大典型症狀</strong>：犬吠樣咳嗽 (Barking cough)、聲音沙啞 (Hoarseness)、吸氣性喘鳴 (Stridor)（111-79）。<br>• <strong>X 光陷阱 (113-75)</strong>：頸部 X 光<strong>正面照 (AP view)</strong> 可見<strong>尖塔徵象 (Steeple sign)</strong>（選項寫側面照為錯誤！側面照拇指徵象 Thumb sign 是會厭炎）。</td></tr></tbody></table></div></div><div class='p-4 rounded-xl bg-slate-900 border border-amber-500/30'><h4 class='text-sm font-black text-amber-300 mb-2'>🧸 兒童評估三角 (PAT)、發展里程碑與兒虐紅旗（114-14, 113-15, 112-15, 111-84, 110-83, 109-13）</h4><ul class='space-y-1.5 text-xs text-slate-200'><li>• <strong>兒童評估三角 (PAT，111-84)</strong>：不用聽診器與血壓計，只看 3 面向：<strong>1. 外觀 (Appearance，含肌肉張力/互動/哭聲)</strong>、<strong>2. 呼吸作功 (Work of Breathing)</strong>、<strong>3. 膚色循環 (Circulation to Skin)</strong>。<strong>不包含 GCS 昏迷指數</strong>！</li><li>• <strong>嬰幼兒發展里程碑 (113-15, 109-13)</strong>：肌肉控制「由頭到腳、由核心到週邊」；被動免疫持續至出生後 <strong>6 個月</strong>；<strong>2～3 個月</strong>視線才會穩定追隨物體（1個月大不會，109-13）；<strong>12 個月（約 1 歲）</strong>才會獨立走路（<strong>8 個月大男童不可能自己走路跌倒</strong>，113-15；<strong>10 個月男嬰走路跌倒致移位性股骨骨折高度懷疑兒虐</strong>，110-83）。</li><li>• <strong>兒虐高風險紅旗 (110-83, 114-14)</strong>：不會走路嬰兒的長骨/股骨骨折、軀幹/腹部/耳朵/臀部等非骨突處瘀傷（3歲翻落床致腹部瘀傷極不合理）、延遲就醫（早上跌倒傍晚才縫合）。</li></ul></div></div>"
+    },
+    {
+      "tabTitle": "🤰 5. 孕婦生理、急產與產後出血",
+      "htmlContent": "<div class='space-y-4'><div class='p-4 rounded-xl bg-slate-900 border border-rose-500/30'><h4 class='text-sm font-black text-rose-300 mb-2'>🤰 孕婦懷孕母體生理變化與外傷處置（113-78, 113-79, 112-81, 110-50, 110-72, 109-78, 108-64, 108-69, 108-79）</h4><div class='overflow-x-auto'><table class='w-full text-left border-collapse text-xs'><thead><tr class='border-b border-slate-700 text-slate-300'><th class='py-2 px-3'>生理系統 / 急症</th><th class='py-2 px-3'>關鍵數值與臨床表現</th><th class='py-2 px-3'>歷屆考古題陷阱與急救原則</th></tr></thead><tbody class='divide-y divide-slate-800'><tr><td class='py-2 px-3 font-bold text-cyan-300'>心血管與血容量變化</td><td class='py-2 px-3'>• <strong>總血量與心輸出量</strong>：34 週增加 <strong>30%～50%</strong><br>• <strong>心跳 (HR)</strong>：懷孕後期<strong>增加 10～15 bpm</strong><br>• <strong>血壓 (BP)</strong>：第二孕期<strong>下降 10～15 mmHg</strong></td><td class='py-2 px-3'>• <strong>代償期休克陷阱 (113-79, 112-81, 110-50, 108-64)</strong>：因孕婦血容量大增，<strong>失血達 30%～35% 以上母體才會出現低血壓休克徵象</strong>（但胎兒早已缺氧窘迫！胎心音正常 110–160 bpm）。<br>• <strong>109-78 陷阱</strong>：寫心跳減少為錯；<strong>108-79 陷阱</strong>：寫第二期血壓上升為錯。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>子宮高度與擺位</td><td class='py-2 px-3'>• <strong>12 週 (3個月)</strong>：出骨盆腔（恥骨聯合上方）<br>• <strong>20 週 (5個月)</strong>：達<strong>肚臍高度</strong>（108-79 寫第4個月為錯）</td><td class='py-2 px-3'>• <strong>仰臥低血壓症候群</strong>：≥20 週孕婦平躺會壓迫下腔靜脈，應採<strong>左側躺 (Left lateral tilt)</strong> 或<strong>徒手將子宮推向左側</strong>（110-50 寫右側躺為錯，108-69）。<br>• <strong>孕婦 OHCA (110-72)</strong>：壓胸時平躺並<strong>徒手左推子宮 (LUD)</strong>、<strong>電擊位置與能量同一般成人</strong>、IV 打在<strong>橫膈以上（上肢）</strong>、氣管內管選<strong>較小號（小 0.5–1.0 號）</strong>因黏膜水腫。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>急產與產後大出血 (PPH)</td><td class='py-2 px-3'>• <strong>急產定義 (109-79)</strong>：規則陣痛至完成分娩 <strong>&lt; 3 小時</strong>（選項寫 &lt;1 小時為錯！）</td><td class='py-2 px-3'>• <strong>產後大出血現場處置 (112-80, 111-77, 109-72)</strong>：1. 大量輸液維持灌流、2. <strong>按摩子宮底</strong>（促進子宮收縮，111-77B 寫促進陰道收縮為錯）、3. <strong>讓新生兒吸吮母親乳頭</strong>（促進腦下垂體分泌催產素 Oxytocin）、4. 外陰撕裂直接外部加壓，<strong>絕不可將手伸入產道內塞紗布</strong>。<br>• <strong>藥物陷阱 (109-72)</strong>：<strong>MgSO4 (硫酸鎂)</strong> 是治療子癇症抽搐與安胎（抑制子宮收縮），<strong>產後出血用 MgSO4 會加重出血</strong>！應給 Oxytocin。</td></tr><tr><td class='py-2 px-3 font-bold text-cyan-300'>羊水栓塞與子癇症</td><td class='py-2 px-3'>• <strong>羊水栓塞 (111-75, 108-69)</strong>：突發呼吸困難、發紺、休克、DIC；<strong>產前、分娩中或產後（胎兒娩出後）皆可能發生</strong>！</td><td class='py-2 px-3'>• <strong>子癇前症/子癇症 (113-78, 112-80)</strong>：常發生於懷孕 <strong>20 週後（主要為第三孕期及產後）</strong>，113-78B 寫一般發生在第二期雖偏早但該題 (D) 黃體破裂寫「經期來潮後一週（濾泡期）」更明顯錯誤（黃體期為排卵後、下次月經前 1–2 週）。</td></tr></tbody></table></div></div></div>"
+    }
+  ]
+}

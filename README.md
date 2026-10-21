@@ -1,5 +1,8 @@
 # EMT-P 小兒、新生兒與婦產急症 (PALS / NRP / OB) 視覺化戰情複習系統
 
+🔗 **線上直接刷題網址（GitHub Pages）**：
+👉 **[https://snake3210.github.io/emtp-pediatric-review-system/](https://snake3210.github.io/emtp-pediatric-review-system/)**
+
 本專案採用 **`universal-exam-review-builder`（萬用考題拆解與視覺化戰情複習系統建置器）** 全域技能建置，完整收錄 **108～114 年度衛生福利部高級救護技術員（EMT-P）甄試筆試** 中所有關於 **新生兒復甦術（NRP）、小兒高級救命術（PALS）、小兒內外傷與發展評估、以及急產接生與妊娠外傷急症** 共 **60 題** 歷屆試題。
 
 ## 📂 專案核心檔案說明

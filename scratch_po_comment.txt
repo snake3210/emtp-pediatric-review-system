@@ -1,0 +1,19 @@
+## 【PO 決策紀錄】2026-11-05｜選擇「方案 A：繼續推進真實股價試驗準備」
+
+PO 已於 ChatGPT 專案對話明確選擇 **方案 A**。本決策之法律／技術範圍如下，**絕不可延伸為 LIVE 出網核准**：
+
+- **已核准**：依現有政府資料開放平台 #11549 / #11370 的 OGDL 1.0 正向證據，以「**單人本機、私人投資研究、不對外傳播或營利**」為預定用途，**繼續 R1B-02 最後的離線實測準備**。精確 JSON API 權利邊界仍為 `EXACT_API_SCOPE_PENDING`；不得宣稱已取得官方書面法律意見，保留此未決風險到正式出網決策卡。
+- **尚未核准**：任何 TWSE/TPEx 真正行情 GET/HEAD、一次性真實試驗啟動、解除 `LIVE HARD-DISABLE`、建立或簽發真實 Gate B Permit、建立實體請求額度、修改／重置 C1 2/2 EXHAUSTED Ledger、寫入 dev/prod DB、正式排程、合併任何現有 PR。
+- **Gate A 現況**：[PR #43 離線技術加固 PASS（Mock / Hard-Disabled）](https://github.com/snake3210/tw-stock-health/pull/43#issuecomment-6646542789)，驗收 HEAD `982196327f7f589c5be33704ced9612a14520a7a`。**不是 LIVE_READY**。Issue #42 保持 OPEN。
+
+### 給 Anti 的直接下一步：一次最小離線收尾，勿再無限迴圈
+1. **凍結已簽核 PR #43**，以其 HEAD 分支 `feat/mvp-r1b-prelive-controlled-client` 為 base 開**一個**新的 stacked 小型「R1B-02-GateB-Wiring（離線實作）」PR；不得合併上游。
+2. **可信 Gate B approval manifest 校驗器（只實作＋Mock 測試，不簽發）**：把現有 Hard-Disable 轉為嚴格受控的**獨立外部可信核准憑據驗證**，不能只看 `approved_by`、字串前綴、環境變數或倉庫內可自行製造的假 token。可使用明確外部信任錨的離線簽章驗證／等效獨立審核來源；憑據含單次唯一 permit_id、有效期限、核准的 HEAD SHA、指定 trade_date、**固定兩個精確 URL**、TWSE <=1 GET／TPEx <=1 GET、單人本機用途及 `twstock_demo/twstock_test` 隔離 PostgreSQL。未提供已核實憑據時**任何真實連線一律 NO-GO**；示範測試憑據只可用於 mock，不可使用假簽章放行 live。不要代 PO 自行核發/簽署。
+3. **完整離線正負向端到端 PRE-LIVE 演練**：在 Mock HTTP response 上測 manifest 有效/無效/過期/HEAD 不符/授權範圍不符、兩市場物理 claim 跨程序競態、302/403/429/timeout、200 原始 raw SHA256 與不可覆寫 receipt、指定日不符、6196/6488 缺碼、七欄不符、TPEx rollback 留存 TWSE；需讓真實執行路徑的相同守衛被 Mock 覆蓋。既有 Prelive/Pilot 架構全部沿用，**不重新打造 R1A/R1B-01**。
+4. **正式來源分類與實測證據的最後界線**：Http 200／解析成功／交易日符合只能代表傳輸或部分技術驗證；不得在三檔獨立七欄位查核與權利狀態確認前，將 UI/API 顯示為全面 `LIVE_VERIFIED` 或授權完成。確保隔離 PostgreSQL demo/test、不可覆寫 raw/receipt、CLI 狀態／非成功 exit 明確。可做最少必要的程式修正與必要測試，不需另寫長篇研究文件。
+5. **交付一頁式可由 PO 直接決策的 Gate B 卡**：列出實際 HEAD、預定交易日（**不自行選定當作已授權**）、兩 URL、總計最多 2 次 GET、無重試/轉址、私人用途、API 使用權利剩餘疑義、隔離 DB、不可覆寫存證位置、失敗時證據保留及 2330／6196／6488 的實測驗收方法。回報 PR、完整 SHA、GitHub Actions 5/5、Mock 正負向結果；由 ChatGPT 做**最後一次 LIVE 技術簽核**，再回到 PO 明確決定是否發出實際請求。若某風險無法離線排除，如實列為 NO-GO，不能自行繞過。
+
+### 出網前唯一有效決策（尚未發生）
+**完成上述最後驗收後，必須再取得 PO 對「固定交易日、TWSE+TPEx 精確 JSON URL、最多各 1 次真實 GET、單人本機研究用途、來源權利未決風險」的**另一次**明確授權**；且完成真正的 Gate B 憑據簽核與讀取驗證。這次 PO 選 A 僅批准**繼續準備**，不批准真實連線。任何「使用者同意方向 = 允許現在 GET」的解讀都是錯誤。
+
+請 Anti **直接執行離線施工，不再等待對方向的確認**；觸及真正出網時停止並交回 ChatGPT/PO。
